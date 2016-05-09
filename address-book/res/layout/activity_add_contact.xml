@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ime i prezime"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFCC" />
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Broj telefona"
+        android:inputType="phone"
+        android:textColorHint="#FFFFCC" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFCC" />
+
+    <EditText
+        android:id="@+id/inputFacebookLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Facebook link"
+        android:inputType="textWebEmailAddress"
+        android:textColorHint="#FFFFCC" />
+
+    <EditText
+        android:id="@+id/inputNote"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bilješka"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:scrollbars="vertical"
+        android:textColorHint="#FFFFCC" />
+
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Odaberi sliku" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spremi" />
+        <Button 
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odustani"
+            />
+    </LinearLayout>
+
+</LinearLayout>
